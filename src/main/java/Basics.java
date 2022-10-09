@@ -104,6 +104,7 @@ public class Basics {
             System.out.println("Current count: " + i);
         }
 
+        System.out.println(split("Idol Long Oolong Vertical Europe University Toyota"));
     }
 
     /**
@@ -152,6 +153,7 @@ public class Basics {
                 ret.delete(i + 1, nextSpace + 1);
             }
         }
+        ret.delete(7, ret.length());
 
         return ret.toString();
     }
